@@ -1,0 +1,3 @@
+﻿  WebShop.cpp
+C:\Users\DT User\Desktop\PRII septembar priprema\WebShop\WebShop\WebShop.cpp(424,1): warning C4715: 'Kupac::DodajTransakciju': not all control paths return a value
+  WebShop.vcxproj -> C:\Users\DT User\Desktop\PRII septembar priprema\WebShop\x64\Debug\WebShop.exe
