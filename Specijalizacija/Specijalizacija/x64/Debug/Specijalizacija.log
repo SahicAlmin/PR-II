@@ -1,0 +1,16 @@
+﻿  Specijalizacija.cpp
+C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(42,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(162,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(162,28):
+      the template instantiation context (the oldest one first) is
+          C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(535,31):
+          see reference to class template instantiation 'KolekcijaG1<int,std::string,10>' being compiled
+          C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(160,18):
+          while compiling class template member function 'std::ostream &operator <<(std::ostream &,KolekcijaG1<int,std::string,10> &)'
+              C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(538,21):
+              see the first reference to 'operator <<' in 'main'
+  
+C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(162,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(308,1): warning C4715: 'Ucesnik::PrijaviSe': not all control paths return a value
+C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\Specijalizacija\Specijalizacija.cpp(426,1): warning C4715: 'Konferencija::PrijaviDogadjaj': not all control paths return a value
+  Specijalizacija.vcxproj -> C:\Users\DT User\Desktop\PRII septembar priprema\Specijalizacija\x64\Debug\Specijalizacija.exe
