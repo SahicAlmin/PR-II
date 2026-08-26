@@ -1,0 +1,47 @@
+﻿  G1septembarski2024.cpp
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(30,1): warning C4566: character represented by universal-character-name '\u00C5' cannot be represented in the current code page (1250)
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(42,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(387,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(390,48): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(483,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(150,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(150,28):
+      the template instantiation context (the oldest one first) is
+          C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(518,26):
+          see reference to class template instantiation 'Kolekcija<int,int,10>' being compiled
+          C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(148,18):
+          while compiling class template member function 'std::ostream &operator <<(std::ostream &,Kolekcija<int,int,10> &)'
+              C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(521,21):
+              see the first reference to 'operator <<' in 'main'
+  
+C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(150,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\type_traits(1705,98): warning C4244: 'argument': conversion from 'unsigned __int64' to 'int', possible loss of data
+  (compiling source file 'G1septembarski2024.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\type_traits(1705,98):
+      the template instantiation context (the oldest one first) is
+          C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\G1septembarski2024\G1septembarski2024.cpp(392,13):
+          see reference to function template instantiation 'std::thread::thread<void(__cdecl &)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int),std::vector<Igrac,std::allocator<Igrac>>&,std::vector<Igrac,std::allocator<Igrac>>&,std::string,unsigned __int64,Vrijeme,std::string,std::string,int&,int&,0>(_Fn,std::vector<Igrac,std::allocator<Igrac>> &,std::vector<Igrac,std::allocator<Igrac>> &,std::string &&,unsigned __int64 &&,Vrijeme &&,std::string &&,std::string &&,int &,int &)' being compiled
+          with
+          [
+              _Fn=void (__cdecl &)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int)
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\thread(93,9):
+          see reference to function template instantiation 'void std::thread::_Start<void(__cdecl &)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int),std::vector<Igrac,std::allocator<Igrac>>&,std::vector<Igrac,std::allocator<Igrac>>&,_Ty,unsigned __int64,Vrijeme,_Ty,_Ty,int&,int&>(_Fn,std::vector<Igrac,std::allocator<Igrac>> &,std::vector<Igrac,std::allocator<Igrac>> &,_Ty &&,unsigned __int64 &&,Vrijeme &&,_Ty &&,_Ty &&,int &,int &)' being compiled
+          with
+          [
+              _Ty=std::string,
+              _Fn=void (__cdecl &)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int)
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\thread(76,40):
+          see reference to function template instantiation 'unsigned int (__cdecl *std::thread::_Get_invoke<std::thread::_Start::_Tuple,0,1,2,3,4,5,6,7,8,9>(std::integer_sequence<size_t,0,1,2,3,4,5,6,7,8,9>) noexcept)(void *)' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\thread(67,17):
+          see reference to function template instantiation 'unsigned int std::thread::_Invoke<std::thread::_Start::_Tuple,0,1,2,3,4,5,6,7,8,9>(void *) noexcept' being compiled
+          C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.42.34433\include\thread(60,14):
+          see reference to function template instantiation 'void std::invoke<void(__cdecl *)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int),std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,unsigned __int64,Vrijeme,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,int,int>(_Callable &&,_Ty1 &&,std::vector<Igrac,std::allocator<Igrac>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,unsigned __int64 &&,Vrijeme &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&,int &&,int &&) noexcept(false)' being compiled
+          with
+          [
+              _Callable=void (__cdecl *)(std::vector<Igrac,std::allocator<Igrac>>,std::vector<Igrac,std::allocator<Igrac>>,std::string,int,Vrijeme,std::string,std::string,int,int),
+              _Ty1=std::vector<Igrac,std::allocator<Igrac>>
+          ]
+  
+  G1septembarski2024.vcxproj -> C:\Users\DT User\Desktop\PRII septembar priprema\G1septembarski2024\x64\Debug\G1septembarski2024.exe

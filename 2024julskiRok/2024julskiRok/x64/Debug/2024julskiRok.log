@@ -1,0 +1,16 @@
+﻿  2024julskiRok.cpp
+C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(33,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(321,29): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(378,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(141,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(141,37):
+      the template instantiation context (the oldest one first) is
+          C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(345,41):
+          see reference to class template instantiation 'Parovi<Karakteristike,const char *>' being compiled
+          C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(139,21):
+          while compiling class template member function 'std::ostream &operator <<(std::ostream &,const Parovi<Karakteristike,const char *> &)'
+              C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(470,72):
+              see the first reference to 'operator <<' in 'main'
+  
+C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\2024julskiRok\2024julskiRok.cpp(141,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  2024julskiRok.vcxproj -> C:\Users\DT User\Desktop\PRII septembar priprema\2024julskiRok\x64\Debug\2024julskiRok.exe
